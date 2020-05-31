@@ -1,0 +1,8 @@
+version: '3'
+services:
+  docker-node-service:
+    ports:
+      - 8001:8001
+    container_name: docker-node-service-container
+    image: docker-node-service:latest
+
